@@ -1,9 +1,15 @@
 import React from "react";
 import "./styles/App.scss";
-import { Header } from "./components/Header";
+import { Banner } from "./components/Banner";
+import { Projects } from "./components/Projects";
 
 function App() {
-  return <Header />;
+  return (
+    <>
+      <Banner />
+      <Projects />
+    </>
+  );
 }
 
 export default App;
